@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+*{box-sizing:border-box}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+#welcome{display:-ms-grid;display:grid;-ms-grid-columns:350px 1fr;grid-template-columns:350px 1fr;width:100%;height:100vh}
+#welcome .welcome-menu{background:white;padding:50px;position:relative}
+#welcome .welcome-menu .logo{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;margin-bottom:50px}
+#welcome .welcome-menu .logo img{max-width:100px}
+#welcome .welcome-menu .menu .menu-title{text-transform:uppercase;color:#0971ce;font-weight:700;font-size:1.2rem;border-bottom:1px solid grey;padding-bottom:20px;margin-bottom:20px}
+#welcome .welcome-jumbo{max-width:100%;background:#ed4852;background:radial-gradient(ellipse at center, #ed4852 0%, #9c1b24 100%);display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;-ms-flex-direction:column;flex-direction:column;padding:100px;overflow:hidden}
+#welcome .welcome-jumbo .status{display:inline-block;padding:10px;font-size:.8rem;font-weight:600;color:white;background:black;border-radius:5px;-ms-flex-item-align:start;align-self:flex-start;margin-bottom:20px}
+#welcome h1{margin-bottom:30px;font-size:4rem;font-weight:900;-ms-flex-item-align:start;align-self:flex-start;color:white}
+#welcome .burger{width:900px;position:relative}a{color:black;display:block;font-size:1.1rem;font-weight:700;margin-bottom:1.4rem;text-decoration:none;transition:background .3s ease-in-out}
+a:hover{color:red}
+.social-icons{display:-ms-flexbox;display:flex}
+.social-icons a{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;background:#c2c8cc;font-size:1.2rem;padding:10px;text-decoration:none;color:white;height:30px;width:30px;border-radius:50%;margin-right:10px}
+.social-icons a:hover{color:red}.location{-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center;position:absolute;bottom:20px}
+.location .address{color:#7a8d99;margin-bottom:20px}
+.location .phone-number a{color:#0971ce;font-size:2rem;font-weight:500;text-decoration:none;margin-right:20px}
+#information{display:-ms-grid;display:grid;-ms-grid-columns:50% 50%;grid-template-columns:50% 50%;-ms-grid-rows:100vh;grid-template-rows:100vh}
+#information .restaurant-image{overflow:hidden;height:100%}
+#information .restaurant-image img{width:100%}
+#information .info{padding:100px 50px}
+#information h2{font-size:3rem;font-weight:700;margin-bottom:20px}
+#information .paragraph{display:-ms-grid;display:grid;-ms-grid-columns:50% 50%;grid-template-columns:50% 50%;grid-gap:20px;line-height:1.5rem;color:#525e66;font-size:1.2rem}
+#information .about-link{font-size:1.8rem;display:-ms-flexbox;display:flex;margin-top:90px}
+#information .about-link .circle-right{height:100px;width:100px}
+body{line-height:1;background:white}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+body{font-family:'Roboto', sans-serif}
